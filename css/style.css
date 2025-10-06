@@ -79,19 +79,46 @@ button {
     margin-block-start: 20px;
 }
 
+/* header section */
 
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 10px;
+}
 
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
 
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
 
+.nav-links span a {
+    color: white;
+    text-decoration: none;
+}
 
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
-
-
-
-
-
+.but {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
 
 
 
